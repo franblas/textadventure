@@ -1,0 +1,136 @@
+[
+  {
+    "id": 0,
+    "msg": "Hello you !!!",
+    "walls": [
+      "brick_wall",
+      "wizard",
+      "wall_and_door",
+      "brick_wall"
+    ],
+    "actions": [
+      [],
+      [
+        "talk"
+      ],
+      [
+        "open door"
+      ],
+      []
+    ],
+    "doors": [
+      {},
+      {},
+      {
+        "status": "opened",
+        "for_room": 1
+      },
+      {}
+    ],
+    "reviews": [
+      [
+        "small_red_potion",
+        "sweet_armor"
+      ],
+      [],
+      [
+        "small_sword"
+      ],
+      [
+        "small_armor"
+      ]
+    ],
+    "mobs": [
+      {
+        "mob": "snake",
+        "life": 5,
+        "damage": 1,
+        "msg": "A small snake appear !"
+      },
+      {
+        "mob": "bat",
+        "life": 3,
+        "damage": 2,
+        "msg": "A small bat appear !"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "msg": "Hello you 1111 !!!",
+    "walls": [
+      "wall_and_door",
+      "brick_wall",
+      "wall_and_door",
+      "brick_wall"
+    ],
+    "actions": [
+      [
+        "open door"
+      ],
+      [],
+      [
+        "open door"
+      ],
+      []
+    ],
+    "doors": [
+      {
+        "status": "opened",
+        "for_room": 0
+      },
+      {},
+      {
+        "status": "closed",
+        "for_room": 2
+      },
+      {}
+    ],
+    "reviews": [
+      [],
+      [],
+      [],
+      [
+        "key_2",
+        "red_potion"
+      ]
+    ],
+    "mobs": []
+  },
+  {
+    "id": 2,
+    "msg": "Hello you 2222 !!!",
+    "walls": [
+      "wall_and_door",
+      "brick_wall",
+      "brick_wall",
+      "brick_wall"
+    ],
+    "actions": [
+      [
+        "open door"
+      ],
+      [],
+      [],
+      []
+    ],
+    "doors": [
+      {
+        "status": "closed",
+        "for_room": 1
+      },
+      {},
+      {},
+      {}
+    ],
+    "reviews": [
+      [
+        "onion_ring"
+      ],
+      [],
+      [],
+      []
+    ],
+    "mobs": []
+  }
+]

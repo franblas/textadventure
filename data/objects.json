@@ -1,0 +1,41 @@
+{
+  "small_red_potion": {
+    "msg": "You gain 5 life points",
+    "action": "character['life']+=5",
+    "type": "usable"
+  },
+  "red_potion": {
+    "msg": "You gain 10 life points",
+    "action": "character['life']+=10",
+    "type": "usable"
+  },
+  "big_red_potion": {
+    "msg": "You gain 15 life points",
+    "action": "character['life']+=15",
+    "type": "usable"
+  },
+  "small_sword": {
+    "msg": "You have equiped the small sword as weapon",
+    "action": "character['damage']=5;equip_obj('small_sword')",
+    "type": "equipable",
+    "etype": "weapon"
+  },
+  "small_armor": {
+    "msg": "You have equiped the small armor as armor",
+    "action": "character['armor']=1;equip_obj('small_armor')",
+    "type": "equipable",
+    "etype": "armor"
+  },
+  "sweet_armor": {
+    "msg": "You have equiped the sweet armor as armor",
+    "action": "character['armor']=3;equip_obj('sweet_armor')",
+    "type": "equipable",
+    "etype": "armor"
+  },
+  "onion_ring": {
+    "msg": "You have equiped the onion ring, you feel better",
+    "action": "equip_obj('onion_ring')",
+    "type": "equipable",
+    "etype": "special"
+  }
+}
