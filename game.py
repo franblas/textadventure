@@ -175,6 +175,15 @@ def loop():
             else:
                 global_msg = 'Nothing found here.'
 
+        elif action in room['secrets'][pos_map]:
+            objs = room['secrets_reviews'][pos_map]
+            if objs:
+                for obj in objs:
+                    if obj not in inventory: inventory.append(obj)
+                global_msg = 'You found ' + bcolors.BOLD + ', '.join(objs) + bcolors.ENDC + ' and put them into your bag.'
+            else:
+                global_msg = 'Nothing found here.'
+
         elif 'use' in action and 'use' in available_actions:
             obj = action.split(' ')[1]
             clear_mob()
@@ -196,7 +205,8 @@ def loop():
 
         elif 'talk' in action and 'talk' in available_actions:
             clear_mob()
-            global_msg = 'You should not pass !'
+            talk = room['talk'][pos_map]
+            if talk: global_msg = '. '.join(talk)
 
         elif action in directions and action in available_actions:
             global_msg = ''

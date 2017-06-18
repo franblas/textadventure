@@ -37,5 +37,11 @@
     "action": "equip_obj('onion_ring')",
     "type": "equipable",
     "etype": "special"
+  },
+  "sun_ring": {
+    "msg": "You have equiped the sun ring",
+    "action": "equip_obj('sun_ring')",
+    "type": "equipable",
+    "etype": "special"
   }
 }

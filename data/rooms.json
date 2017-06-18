@@ -3,7 +3,7 @@
     "id": 0,
     "msg": "Hello you !!!",
     "walls": [
-      "brick_wall",
+      "wall_and_library",
       "wizard",
       "wall_and_door",
       "brick_wall"
@@ -53,6 +53,26 @@
         "damage": 2,
         "msg": "A small bat appear !"
       }
+    ],
+    "talk": [
+      [],
+      [
+        "The sun libray room 2"
+      ],
+      [],
+      []
+    ],
+    "secrets": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "secrets_reviews": [
+      [],
+      [],
+      [],
+      []
     ]
   },
   {
@@ -95,7 +115,25 @@
         "red_potion"
       ]
     ],
-    "mobs": []
+    "mobs": [],
+    "talk": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "secrets": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "secrets_reviews": [
+      [],
+      [],
+      [],
+      []
+    ]
   },
   {
     "id": 2,
@@ -104,7 +142,7 @@
       "wall_and_door",
       "brick_wall",
       "brick_wall",
-      "brick_wall"
+      "wall_and_library"
     ],
     "actions": [
       [
@@ -131,6 +169,28 @@
       [],
       []
     ],
-    "mobs": []
+    "mobs": [],
+    "talk": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "secrets": [
+      [],
+      [],
+      [],
+      [
+        "the sun"
+      ]
+    ],
+    "secrets_reviews": [
+      [],
+      [],
+      [],
+      [
+        "sun_ring"
+      ]
+    ]
   }
 ]
