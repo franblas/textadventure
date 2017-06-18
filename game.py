@@ -132,6 +132,7 @@ def loop():
         if action in mobs_actions and action in available_actions:
             if action == 'hit':
                 loose_life = mob['current_mob']['damage'] - character['armor']
+                character['stamina'] -= 1
                 if loose_life >= 0:
                     character['life'] -= loose_life
                 else:

@@ -14,6 +14,11 @@
     "action": "character['life']+=15",
     "type": "usable"
   },
+  "green_potion": {
+    "msg": "You gain 10 stamina points",
+    "action": "character['stamina']+=10",
+    "type": "usable"
+  },
   "small_sword": {
     "msg": "You have equiped the small sword as weapon",
     "action": "character['damage']=5;equip_obj('small_sword')",

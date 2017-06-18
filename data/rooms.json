@@ -107,12 +107,12 @@
       {}
     ],
     "reviews": [
-      [],
+      ["red_potion"],
       [],
       [],
       [
         "key_2",
-        "red_potion"
+        "green_potion"
       ]
     ],
     "mobs": [],
